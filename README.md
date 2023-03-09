@@ -1,1 +1,1 @@
-# rdp_1
+# React Developer Programme Sessions
