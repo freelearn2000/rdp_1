@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+.App
+{
+      margin: 10px;
+    border: 1px solid rgb(36, 31, 31);
+}
+
+.Component
+{
+  margin: 10px;  
+  border: 1px solid red;
+  box-shadow: 0  2px 2px rgb(243,195,195);
+  width: 100px;
+  padding: 20px;
+}
