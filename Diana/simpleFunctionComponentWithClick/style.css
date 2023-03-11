@@ -1,0 +1,12 @@
+h1 {
+  color: Red;
+  text-decoration: dotted;
+  background-color: aquamarine;
+}
+#user {
+  border: 5px solid black;
+}
+button {
+  color: black;
+  background-color: yellowgreen;
+}
