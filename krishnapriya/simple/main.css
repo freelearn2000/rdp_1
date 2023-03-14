@@ -1,0 +1,19 @@
+.Main{
+    border: outset #f33;
+    width: 100px;
+    padding: 5em;
+    padding-top: 20px;
+}
+
+.Main2{
+    border: outset rgb(51, 173, 255);
+    width: 100px;
+    padding: 3em;
+    padding-top: 20px;
+}
+.Main3{
+    border: outset rgb(60, 24, 88);
+    width: 100px;
+    padding: 3em;
+    padding-top: 20px;
+}
