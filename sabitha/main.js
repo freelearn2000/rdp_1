@@ -24,18 +24,16 @@ class Component2 extends React.Component {
       );
   };
 };
-class Form2 extends React.Component {
+class Component3 extends React.Component {
   
 
   render () {
-      return (
-          <div className='form2'>
-             <div><div><label>Name</label><input type="text" name="dist"></input></div>
-             </div>
-
-          </div>
-      );
-  };
+    return (
+        <div className="Component3"><form><div><lable>Name</lable><input type="text"></input></div>
+        <div><button>Click Me</button></div>
+        </form></div>
+    );
+};
 };
 class MainComponent extends React.Component {
   district = 'Kollam';
@@ -51,7 +49,7 @@ class MainComponent extends React.Component {
               <H3main />
               <Component1 district={this.district2} checkMe={this.getAlertMethod} />
               <Component2 district={this.district} checkMe={this.getAlertMethod} />
-              <form2 />
+              <Component3 />
           </div>
       );
   };
