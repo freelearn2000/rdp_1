@@ -1,5 +1,6 @@
-const rootvalue=document.getElementById('root');
-const newvalue=document.createElement('div');
+const newvalue = document.createElement('div');
 newvalue.textContent='Hello Wold....';
 newvalue.classList.add('Main');
+
+const rootvalue = document.getElementById('root');
 rootvalue.appendChild(newvalue);
