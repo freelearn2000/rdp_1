@@ -5,10 +5,10 @@
     color: brown;
     border: 3px solid black;
 }
-.h1 {
-    color: red;
+h1 {
+    color: rgb(0, 47, 255);
 }
-.App
+.app
 {
       margin: 10px;
     border: 1px solid rgb(36, 31, 31);
@@ -22,7 +22,7 @@
   width: 200px;
   padding: 20px;
 }
-.Componenth3
+.h3c
 {
   color: darkblue;
   text-decoration: underline;
