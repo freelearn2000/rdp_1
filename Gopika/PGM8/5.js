@@ -1,7 +1,7 @@
 const Component1=(props)=>{
   return (
       <div className='Main'>
-         <h3 onClick ={()=> this.props.xy('Hai inside Component1')}>Component1</h3>
+         <h3 onClick ={()=>props.xy('Hai inside Component1')}>Component1</h3>
          <span>Name:{props.name}</span>
          <span>Address:{props.address}</span>
       </div>
@@ -12,8 +12,8 @@ class Component2 extends React.Component{
       return (
           <div className='Main1'>
             <h3 onClick ={()=> this.props.xy('Hai inside Component2')}>Component2</h3>
-         <span>Name:{this.det.name}</span>
-         <span>Address:{this.det.address}</span>
+         <span>Name:{this.props.name}</span>
+         <span>Address:{this.props.address}</span>
   
           </div>
       );
@@ -33,8 +33,8 @@ class App extends React.Component{
           <div className='appcls'>
               APP COMPONENT  !!!
 
-              <Component1  name={this.det.name} address={this.det.address} xy={this.Display()} />
-              <Component2  name={this.det.name} address={this.det.address} xy={this.Display()} />
+              <Component1  name={this.det.name} address={this.det.address} xy={this.Display} />
+              <Component2  name={this.det.name} address={this.det.address} xy={this.Display} />
   
           </div>
       );
