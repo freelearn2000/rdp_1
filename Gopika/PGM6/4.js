@@ -99,9 +99,13 @@ const Main = () => {
 
 const Footer = () => {
     return (
-        <footer>
-<h3>copyright@CDIT</h3>
-        </footer>
+      <>
+      <div class="ui inverted vertical footer segment form-page">
+  <div class="ui container">
+  copyright@CDIT. All Rights Reserved
+  </div>
+</div>
+</> 
     );
 }
 
