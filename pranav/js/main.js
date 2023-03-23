@@ -19,7 +19,7 @@ const Profile = () => {
             <div className="ui link cards">
                 <div className="card">
                     <div className="image">
-                    <img src="/images/avatar2/large/matthew.png" />
+                    <img src="images/matthew.png" />
                     </div>
                     <div className="content">
                     <div className="header">Matt Giampietro</div>
@@ -42,7 +42,7 @@ const Profile = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                    <img src="/images/avatar2/large/molly.png" />
+                    <img src="images/molly.png" />
                     </div>
                     <div className="content">
                     <div className="header">Molly</div>
@@ -65,7 +65,7 @@ const Profile = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                    <img src="/images/avatar2/large/elyse.png" />
+                    <img src="images/elyse.png" />
                     </div>
                     <div className="content">
                     <div className="header">Elyse</div>
