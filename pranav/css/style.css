@@ -1,0 +1,11 @@
+.component
+{
+    border: 2px solid red;
+    width: 300px;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 6px 4px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 20px 0px rgba(0,0,0,0.75);
+}
