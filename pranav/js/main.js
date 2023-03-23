@@ -44,44 +44,44 @@ const Profile = () => {
                     <div className="image">
                     <img src="/images/avatar2/large/molly.png" />
                     </div>
-                    <div class="content">
-                    <div class="header">Molly</div>
-                    <div class="meta">
-                        <span class="date">Coworker</span>
+                    <div className="content">
+                    <div className="header">Molly</div>
+                    <div className="meta">
+                        <span className="date">Coworker</span>
                     </div>
-                    <div class="description">
+                    <div className="description">
                         Molly is a personal assistant living in Paris.
                     </div>
                     </div>
-                    <div class="extra content">
-                    <span class="right floated">
+                    <div className="extra content">
+                    <span className="right floated">
                         Joined in 2011
                     </span>
                     <span>
-                        <i class="user icon"></i>
+                        <i className="user icon"></i>
                         35 Friends
                     </span>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="image">
+                <div className="card">
+                    <div className="image">
                     <img src="/images/avatar2/large/elyse.png" />
                     </div>
-                    <div class="content">
-                    <div class="header">Elyse</div>
-                    <div class="meta">
+                    <div className="content">
+                    <div className="header">Elyse</div>
+                    <div className="meta">
                         <a>Coworker</a>
                     </div>
-                    <div class="description">
+                    <div className="description">
                         Elyse is a copywriter working in New York.
                     </div>
                     </div>
-                    <div class="extra content">
-                    <span class="right floated">
+                    <div className="extra content">
+                    <span className="right floated">
                         Joined in 2014
                     </span>
                     <span>
-                        <i class="user icon"></i>
+                        <i className="user icon"></i>
                         151 Friends
                     </span>
                     </div>
