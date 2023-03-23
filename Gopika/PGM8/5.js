@@ -1,125 +1,46 @@
-const Header = () => {
-    return (
-        <header>
-           <div class="ui inverted menu">
-  <a class="active item">
-    Home
-  </a>
-  <a class="item">
-    About us
-  </a>
-  <a class="item">
-    Team
-  </a>
-   <a class="item">
-    Contact us
-  </a>
-</div>
-        </header>
-    );
-};
-
-const Main = () => {
-    return (
-        <>
-        <div class="ui link cards">
-        <div class="card">
-          <div class="image">
-            <img src="/images/matthew.png" />
-          </div>
-          <div class="content">
-            <div class="header">Matt Giampietro</div>
-            <div class="meta">
-              <a>Friends</a>
-            </div>
-            <div class="description">
-              Matthew is an interior designer living in New York.
-            </div>
-          </div>
-          <div class="extra content">
-            <span class="right floated">
-              Joined in 2013
-            </span>
-            <span>
-              <i class="user icon"></i>
-              75 Friends
-            </span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="image">
-            <img src="images/molly.png" />
-          </div>
-          <div class="content">
-            <div class="header">Molly</div>
-            <div class="meta">
-              <span class="date">Coworker</span>
-            </div>
-            <div class="description">
-              Molly is a personal assistant living in Paris.
-            </div>
-          </div>
-          <div class="extra content">
-            <span class="right floated">
-              Joined in 2011
-            </span>
-            <span>
-              <i class="user icon"></i>
-              35 Friends
-            </span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="image">
-            <img src="/images/elyse.png" />
-          </div>
-          <div class="content">
-            <div class="header">Elyse</div>
-            <div class="meta">
-              <a>Coworker</a>
-            </div>
-            <div class="description">
-              Elyse is a copywriter working in New York.
-            </div>
-          </div>
-          <div class="extra content">
-            <span class="right floated">
-              Joined in 2014
-            </span>
-            <span>
-              <i class="user icon"></i>
-              151 Friends
-            </span>
-          </div>
-        </div>
+const Component1=(props)=>{
+  return (
+      <div className='Main'>
+         <h3 onClick ={()=> this.props.xy('Hai inside Component1')}>Component1</h3>
+         <span>Name:{props.name}</span>
+         <span>Address:{props.address}</span>
       </div>
-      </>
-    );
+  );
+}
+class Component2 extends React.Component{
+  render(){
+      return (
+          <div className='Main1'>
+            <h3 onClick ={()=> this.props.xy('Hai inside Component2')}>Component2</h3>
+         <span>Name:{this.det.name}</span>
+         <span>Address:{this.det.address}</span>
+  
+          </div>
+      );
+  }
+
 }
 
-const Footer = () => {
-    return (
-      <>
-      <div class="ui inverted vertical footer segment form-page">
-  <div class="ui container">
-  copyright@CDIT. All Rights Reserved
-  </div>
-</div>
-</> 
-    );
-}
 
 class App extends React.Component{
-    render( ){
-        return (
-            <div className='Container'>
-                <Header />
-                <Main/>
-                <Footer/>
-            </div>
-        );
-    }
-}
+  det = {name:'Deepa', address:'kowdiar'}
+  Display(params){
+    console.log('Display Function called :',params);
+  }
+  render(){
+   
+      return (
+          <div className='appcls'>
+              APP COMPONENT  !!!
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+              <Component1  name={this.det.name} address={this.det.address} xy={this.Display()} />
+              <Component2  name={this.det.name} address={this.det.address} xy={this.Display()} />
+  
+          </div>
+      );
+  }
+
+}
+const root=ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App/>);
+
