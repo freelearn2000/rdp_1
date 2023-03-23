@@ -1,7 +1,7 @@
 const Component1 = (props) => {
     return (
         <div className='component'>
-            <h3>Functional Component</h3>
+            <h3 onClick={()=> props.xyz ('Hello')}>Functional Component</h3>
             <p>Name : {props.name}</p>
             <p>Phone : {props.phone}</p>
         </div>
@@ -29,8 +29,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Component1 name={this.user.name} phone={this.user.phone} xyz={this.somMethod()}></Component1>
-                <Component2 name={this.user.name} phone={this.user.phone} xyz={this.somMethod()}></Component2>
+                <Component1 name={this.user.name} phone={this.user.phone} xyz={this.somMethod}></Component1>
+                <Component2 name={this.user.name} phone={this.user.phone} xyz={this.somMethod}></Component2>
             </div>
         );
     }

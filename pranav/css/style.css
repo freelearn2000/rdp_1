@@ -1,6 +1,6 @@
 .component
 {
-    border: 2px solid red;
+    border: 5px solid rgb(58, 173, 219);
     width: 300px;
     border-radius: 4px;
     margin: 20px;
@@ -8,4 +8,8 @@
     -webkit-box-shadow: 6px 4px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 4px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 6px 4px 20px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.component:hover{
+    border: 5px solid rgb(4, 58, 80);
 }
