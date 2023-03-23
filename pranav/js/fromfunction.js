@@ -1,7 +1,7 @@
 const Component1 = (props) => {
     return (
         <div className='component'>
-            <h3>Functional Component</h3>
+            <h3 onClick={()=> props.xyz()}>Functional Component</h3>
             <p>Name : {props.name}</p>
             <p>Phone : {props.phone}</p>
         </div>
@@ -22,8 +22,8 @@ class Component2 extends React.Component {
 
 class App extends React.Component {
     user = { name: 'Pranav', phone: 8735627878 }
-    somMethod(param) {
-        console.log('App Function called :', param);
+    somMethod() {
+        console.log('App Function called :');
     }
 
     render() {
