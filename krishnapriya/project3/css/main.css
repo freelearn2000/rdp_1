@@ -1,0 +1,12 @@
+.Main {
+	height: 100px;
+	width: 100px;
+	/* border: 1px solid darkblue; */
+}
+.textcolor {
+    color: green;
+    text-align: center;
+  }
+  .carddesign{
+    margin-left: 30px;
+  }
