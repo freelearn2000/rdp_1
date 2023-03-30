@@ -1,10 +1,4 @@
-const Weather = (props) => {
-  return (
-    <div className="ui segment">
-      <h2>Hello.props.user?.name</h2>
-    </div>
-  );
-};
+
 class News extends React.Component {
   state = { title: "", body: "" };
 
@@ -55,7 +49,7 @@ class App extends React.Component {
       <div>
         <h2>App Component</h2>
         <h4>{this.state.name}</h4>
-        <News user={this.state} />
+        <News/>
       </div>
     );
   }
