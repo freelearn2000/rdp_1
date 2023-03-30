@@ -1,7 +1,7 @@
 const Component1 = (props) => {
     return (
         <div className='component'>
-            <h3 onClick={()=> props.xyz ('Hello')}>Functional Component</h3>
+            <h3 onClick={() => props.xyz('Hello')}>Functional Component</h3>
             <p>Name : {props.name}</p>
             <p>Phone : {props.phone}</p>
         </div>

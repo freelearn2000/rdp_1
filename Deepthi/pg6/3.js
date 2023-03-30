@@ -27,6 +27,7 @@ const Header = () => {
     );
 };
 
+
 const Main = () => {
     return (
         <div className='main'>
