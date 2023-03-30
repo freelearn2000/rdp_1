@@ -1,0 +1,28 @@
+h3{
+    color:blueviolet;
+}
+.Main{
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+}
+.Main1{
+    height: 200px;
+    width: 400px;
+    border: 1px solid hsl(71, 100%, 50%);
+    
+}
+.appcls{
+   
+    width: 800px;
+    border: 1px solid blue;
+    padding: 50px;
+}
+@media (min-height: 320px) {
+    .ui.footer.form-page { /* Increased specificity for SO snippet priority */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
