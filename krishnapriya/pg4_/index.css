@@ -1,0 +1,33 @@
+h3{
+    color:blueviolet;
+}
+.Main{
+    height: 200px;
+    width: 400px;
+    padding-top: 3em;
+    border: 1px solid red;
+}
+.Main1{
+    height: 100px;
+    width: 400px;
+    border: 1px solid hsl(71, 100%, 50%);
+    padding: 50px;
+}
+
+.fontdesign{
+    margin-left:3em;
+}
+.cards{
+   
+    width: 100%;
+    border: 1px solid blue;
+    padding: 50px;
+}
+@media (min-height: 320px) {
+    .ui.footer.form-page { /* Increased specificity for SO snippet priority */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
